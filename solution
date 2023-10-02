@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+int main() {
+    std::string str = "Hello, World!";
+    
+    // Reverse the string using std::reverse
+    std::reverse(str.begin(), str.end());
+    
+    std::cout << "Reversed String: " << str << std::endl;
+    
+    return 0;
+}
